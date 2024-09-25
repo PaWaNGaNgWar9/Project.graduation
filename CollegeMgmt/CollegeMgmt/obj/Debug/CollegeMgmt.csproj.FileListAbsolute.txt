@@ -1,0 +1,5 @@
+D:\project\CollegeMgmt\CollegeMgmt\bin\CollegeMgmt.dll
+D:\project\CollegeMgmt\CollegeMgmt\bin\CollegeMgmt.pdb
+D:\project\CollegeMgmt\CollegeMgmt\obj\Debug\CollegeMgmt.csprojResolveAssemblyReference.cache
+D:\project\CollegeMgmt\CollegeMgmt\obj\Debug\CollegeMgmt.dll
+D:\project\CollegeMgmt\CollegeMgmt\obj\Debug\CollegeMgmt.pdb

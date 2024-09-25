@@ -1,0 +1,156 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+a:hover{
+	text-decoration: none;
+}
+html{
+	scroll-behavior: smooth;
+}
+.title{
+	color: #555;
+	position: relative;
+	letter-spacing: 0.03em;
+}
+.title::after{
+	background-color: #ff523b;
+	content: "";
+	display: block;
+	width: 100px;
+	height: 5px;
+	margin: 10px auto;
+	border-radius: 50px;
+}
+#header{
+	background: radial-gradient(#fff,#ffd6d6);
+}
+#logo img{
+	position: relative;
+	width: 200px;
+	height: auto;
+}
+#menu{
+	list-style: none;
+	margin: 0px;
+	padding-top: 10px;
+}
+#menu li{
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: 0.05em;
+	font-family: Nunito, sans-serif
+}
+#menu li a{
+	color: black;
+	display: block;
+	padding: 18px 15px;
+}
+.cart{
+	width: 30px;
+}
+.banner{
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+.banner h1{
+	font-size: 50px;
+	font-weight: 600;
+}
+.banner .btn{
+    background-color: #ff523b;
+    color: white;
+    letter-spacing: 0.03em;
+    border-radius: 50px;
+    padding: 8px 30px;
+}
+.banner .btn:hover{
+	background-color: #ce2a14;
+}
+.banner-post img{
+	width: 100%;
+	height: auto;
+	padding-top: 70px;
+}
+
+#category img{
+	width: 100%;
+	height: auto;
+	transition: transform 0.5s;
+}
+#category img:hover{
+	transform: translateY(-5px);
+}
+
+
+.featue-product{
+	transition: transform 0.5s;
+}
+.featue-product:hover{
+	transform: translateY(-5px);
+}
+#feature-product img{
+    width: 100%;
+    height: auto;
+}
+.rating .fa{
+	color: #ff523b;
+}
+#feature-product h6,p{
+	color: #555;
+}
+
+#brands img{
+	filter: grayscale(100%);
+}
+#brands img:hover{
+	filter: grayscale(0%);
+}
+
+
+#footer{
+	background-color: black;
+}
+#footer .app img{
+	width: 100px;
+	height: auto;
+}
+#footer .logo img{
+    width: 100px;
+    height: auto;
+}
+#footer li a{
+	color: #555;
+}
+
+/*--------------product page css start--------------*/
+
+.page-btn .btn{
+	color: #ff523b;
+	border: 1px solid #ff523b;
+}
+.page-btn .btn:hover{
+	background-color: #ff523b;
+	color: white;
+	transition: all 0.5s;
+}
+
+
+
+@media (max-width: 768px){
+	.exclusive-title{
+		padding-top: 25px;
+	}
+	#menu{
+		text-align: center;
+	}
+	#logo{
+		text-align: center;
+	}
+	.banner{
+	padding-top: 150px;
+	padding-bottom: 50px;
+    }	
+    .page-btn{
+    	text-align: center;
+    }
+}
